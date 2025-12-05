@@ -24,7 +24,7 @@ Assumptions
  1) Refund_time IS NOT NULL indicates a refunded purchase.
 
  2) YYYY-MM is used to format purchase_time for monthly computations.
-3) Days are returned via timestamp subtraction; * 24 * 60 is used to convert the result to minutes.
+3) Days are returned via timestamp subtraction; 
 
 4) "First order" refers to the store's or buyer's earliest purchase moment.
 
